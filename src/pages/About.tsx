@@ -43,7 +43,7 @@ const About = () => {
       image: '/Dzaki.JPG'
     },
     {
-      name: 'Rizki Pratama, S.Kom',
+      name: 'Rizqi Faishal Hilmy',
       position: 'Head of Technology',
       education: 'S1 Ilmu Komputer UI',
       experience: '8+ tahun sebagai software engineer',
