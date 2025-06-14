@@ -45,16 +45,17 @@ const HeroSection = () => {
                   Mulai Belajar Sekarang
                 </Button>
               </Link>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-speedu-blue font-semibold px-8 py-3 text-lg"
-              >
-                <PlayCircle className="w-5 h-5 mr-2" />
-                Tonton Demo
-              </Button>
+           
+              <a href="https://t.me/+mBWTt5xLnFJmY2Fl" target="_blank" rel="noopener noreferrer">
+                <Button 
+                  size="lg" 
+                  className="bg-white text-speedu-blue hover:bg-gray-100 font-semibold px-8 py-3 text-lg"
+                >
+                  <BookOpen className="w-5 h-5 mr-2" />
+                  Join TG Group
+                </Button>
+              </a>
             </div>
-            
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               <div className="text-center">
@@ -75,14 +76,15 @@ const HeroSection = () => {
           {/* Image/Illustration */}
           <div className="relative animate-scale-in">
             <div className="relative z-10 bg-white/10 backdrop-blur-sm rounded-2xl p-8">
-              <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Pembelajaran Online"
+              <video
+                src="/Untitled design (1).mp4"
                 className="w-full h-64 md:h-80 object-cover rounded-lg"
+                autoPlay
+                muted
+                loop
+                playsInline
               />
-              <div className="absolute -top-4 -right-4 bg-speedu-green text-white p-3 rounded-full shadow-lg">
-                <Users className="w-6 h-6" />
-              </div>
+            
               <div className="absolute -bottom-4 -left-4 bg-white text-speedu-blue p-3 rounded-full shadow-lg">
                 <BookOpen className="w-6 h-6" />
               </div>
