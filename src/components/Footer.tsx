@@ -1,3 +1,4 @@
+
 import { 
   BookOpen, 
   Mail, 
@@ -41,8 +42,12 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-r from-speedu-blue to-speedu-green rounded-lg flex items-center justify-center">
-                <BookOpen className="w-6 h-6 text-white" />
+              <div className="w-10 h-10 flex items-center justify-center">
+                <img 
+                  src="/lovable-uploads/5a4a2a96-815e-458a-8c9a-a5ad2281151d.png" 
+                  alt="Speedu Logo" 
+                  className="w-10 h-10 object-contain filter brightness-0 invert"
+                />
               </div>
               <div>
                 <h3 className="text-2xl font-bold">Speedu</h3>
