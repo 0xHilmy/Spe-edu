@@ -22,11 +22,8 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/logo.png" alt="Speedu Logo" className="w-20 h-20" />
-            <div>
-              <h1 className="text-xl font-bold text-gray-900">Speedu</h1>
-              <p className="text-xs text-speedu-blue font-medium">ngebut belajar</p>
-            </div>
+            <img src="/LOGO SPEEDU.png" alt="Speedu Logo" className="w-28 h-28" />
+         
           </Link>
 
           {/* Desktop Navigation */}
